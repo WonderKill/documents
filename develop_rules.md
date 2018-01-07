@@ -35,7 +35,7 @@
 ![image](http://www.terabits-wx.cn/feature.png)
 
 #### fixbug修补分支
-- 修补bug分支。软件正式发布以后，难免会出现bug。这时就需要创建一个分支，进行bug修补。修补bug分支是从master分支上面分出来的。修补结束以后，再合并进master和dev分支。它的命名，可以采用**fixbug_[bug名称]**的格式。
+- 修补bug分支。软件正式发布以后，难免会出现bug。这时就需要创建一个分支，进行bug修补。修补bug分支是从master分支上面分出来的。修补结束以后，再合并进master和dev分支。它的命名，可以采用**fixbug_[bug名称]_20180107**的格式。
 
 ![image](http://www.terabits-wx.cn/bugxiubu.png)
 
