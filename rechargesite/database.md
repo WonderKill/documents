@@ -22,9 +22,9 @@
 16	|gmtcreate	|创建时间	|datetime	||
 17	|gmtactivation	|激活时间|	datetime	||
 
-- sql语句
+> sql语句
 
-``` ``` ```
+```
 create table t_charge_device(
 gid BIGINT(20) NOT NULL PRIMARY KEY AUTO_INCREMENT,
 imei CHAR(15) NOT NULL UNIQUE,
@@ -48,4 +48,5 @@ INDEX MULTI(siteid, activation),
 INDEX MULTI(sitename, activation),
 INDEX(gmtactivation)
 )
-``` ``` ```
+```
+---
