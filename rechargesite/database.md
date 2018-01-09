@@ -69,7 +69,7 @@ INDEX(gmtactivation)
 12	|	headimgurl	|	头像	|	varchar(255)	|		|
 13	|	gmtcreate	|	用户注册时间	|	datetime	|		|
 14	|	gmtmodified	|	用户最近一次登入主页时间	|	datetime	|		|
-**15**  | **usequota** | **用户当天已使用的免费额度** | **int(8)**|  |
+**15**  | **usequota** | **用户当天已使用的免费额度** | **decimal(8,2)**|  |
 
 > sql语句
 
