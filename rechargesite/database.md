@@ -24,7 +24,7 @@
 
 - sql语句
 
-```
+    ```
 create table t_charge_device(
 gid BIGINT(20) NOT NULL PRIMARY KEY AUTO_INCREMENT,
 imei CHAR(15) NOT NULL UNIQUE,
