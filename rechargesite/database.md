@@ -93,7 +93,6 @@ gmtmodified DATETIME NULL
 )
 
 ```
-
 ---
 
 - 用户消费记录
@@ -113,8 +112,7 @@ gmtmodified DATETIME NULL
 11	|	postbalance	|	消费后余额	|	decimal(8,2)	|		|
 12	|	type	|	消费类型	|	tinyint(2)	|	20表示余额消费，21表示微信消费，22表示投币消费，用户未知	|
 13	|	orderid	|	消费编号，与微信支付记录表orderid相同	|	varchar(32)	|		|
-14	|	status	|	支付状态	|	tinyint(2)	|	23表示下单中，	|
-	|		|		|		|	66表示成功	|
+14	|	status	|	支付状态	|	tinyint(2)	|	23表示下单中， 66表示成功	|
 15	|	gmtcreate	|	创建时间	|	datetime	|	索引	|
 16	|	gmtmodified	|	第一次收到硬件回复时间	|	datetime	|		|
 
