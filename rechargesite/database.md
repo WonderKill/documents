@@ -24,7 +24,7 @@
 
 - sql语句
 
-    ```
+<code>
 create table t_charge_device(
 gid BIGINT(20) NOT NULL PRIMARY KEY AUTO_INCREMENT,
 imei CHAR(15) NOT NULL UNIQUE,
@@ -48,5 +48,4 @@ INDEX MULTI(siteid, activation),
 INDEX MULTI(sitename, activation),
 INDEX(gmtactivation)
 )
-
-```
+</code>
